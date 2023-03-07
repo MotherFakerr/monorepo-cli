@@ -2,7 +2,7 @@ import React from 'react';
 import { inject, observer } from 'mobx-react';
 import './app.css';
 
-@inject('appSystemStore')
+@inject()
 @observer
 export class App extends React.Component<ANY, ANY> {
     constructor(props: ANY) {
