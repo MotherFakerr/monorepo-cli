@@ -11,7 +11,8 @@
         "url": "git+https://github.com/gldwyyy/demo.git"
     },
     "scripts": {
-        "start": "webpack-dev-server --config ../../webpack/webpack.config.js"
+        "start": "webpack-dev-server --config ../../webpack/webpack.config.js",
+        "build": "webpack --config ../../webpack/webpack.config.js"
     },
     "dependencies": {
         "@types/react": "^18.0.28",

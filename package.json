@@ -5,6 +5,7 @@
     "private": true,
     "scripts": {
         "start": "pnpm --filter ./packages/face start",
+        "build": "pnpm --filter ./packages/face build",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
