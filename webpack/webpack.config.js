@@ -103,6 +103,6 @@ module.exports = {
         //      */
         //     warningsFilter: /export .* was not found in/,
         // },
-        port: 8081,
+        port: 8000,
     },
 };
