@@ -1,15 +1,14 @@
 {
-    "name": "monorepo-cli",
-    "version": "1.0.0",
-    "description": "",
-    "private": true,
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bin": {
-        "create-monorepo": "index.js"
-    },
-    "dependencies": {
-        "fs-extra": "^11.1.1"
-    }
+  "name": "motherfakerr-create-monorepo",
+  "version": "1.0.7",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "create-monorepo": "index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
 }

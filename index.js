@@ -16,10 +16,15 @@ if (major < 18) {
   process.exit(1);
 }
 
+const spawn = require('cross-spawn')
+spawn.sync('npm insall')
+
+
 const fs = require('fs-extra')
-const path = require('path');
+console.log('fuck')
 
 const templateDir = path.join('', 'template');
 if (fs.existsSync(templateDir)) {
     fs.copySync(templateDir, './');
 } 
+
