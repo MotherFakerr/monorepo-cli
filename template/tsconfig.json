@@ -12,6 +12,7 @@
         "noImplicitThis": true,
         "skipLibCheck": true,
         "suppressImplicitAnyIndexErrors": true,
+        "ignoreDeprecations": "5.0",
         "experimentalDecorators": true,
         "noUnusedLocals": true,
         "downlevelIteration": true,

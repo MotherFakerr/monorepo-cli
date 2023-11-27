@@ -1,6 +1,6 @@
 import React from 'react';
 import { inject, observer } from 'mobx-react';
-import './app.css';
+import './app.less';
 
 @inject()
 @observer
@@ -13,7 +13,7 @@ export class App extends React.Component<ANY, ANY> {
     public render(): React.ReactElement {
         return (
             <div className='App'>
-                <div id='view3d' />
+                <div className='welcome'>motherfaker-monorepo-cli</div>
             </div>
         );
     }

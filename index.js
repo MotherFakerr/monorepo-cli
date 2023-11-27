@@ -5,12 +5,12 @@ const semver = currentNodeVersion.split('.');
 const major = semver[0];
 
 console.log()
-if (major < 18) {
+if (major < 14) {
     console.error(
         'You are running Node ' +
         currentNodeVersion +
         '.\n' +
-        'Requires Node 18 or higher. \n' +
+        'Requires Node 14 or higher. \n' +
         'Please update your version of Node.'
     );
     process.exit(1);
